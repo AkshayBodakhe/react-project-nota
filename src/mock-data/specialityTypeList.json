@@ -1,0 +1,101 @@
+{
+    "content": [
+        {
+            "id": 1,
+            "name": "Pain Management Specialist"
+        },
+        {
+            "id": 2,
+            "name": "Hand Surgeon"
+        },
+        {
+            "id": 3,
+            "name": "Sports Medicine Specialist"
+        },
+        {
+            "id": 4,
+            "name": "Homeopath / Holistic Practitioner"
+        },
+        {
+            "id": 5,
+            "name": "Transplant Surgeon"
+        },
+        {
+            "id": 6,
+            "name": "Infectious Disease Specialist"
+        },
+        {
+            "id": 7,
+            "name": "Gastroenterologist"
+        },
+        {
+            "id": 8,
+            "name": "Acupuncturist"
+        },
+        {
+            "id": 9,
+            "name": "Pedodntics"
+        },
+        {
+            "id": 10,
+            "name": "Physiotherapist"
+        },
+        {
+            "id": 11,
+            "name": "Neuro Surgeon"
+        },
+        {
+            "id": 12,
+            "name": "Cardiologist"
+        },
+        {
+            "id": 13,
+            "name": "Pulmonologist"
+        },
+        {
+            "id": 14,
+            "name": "Naturopath"
+        },
+        {
+            "id": 15,
+            "name": "Podiatrist"
+        },
+        {
+            "id": 16,
+            "name": "Orthodontist"
+        },
+        {
+            "id": 17,
+            "name": "Epileptologist"
+        },
+        {
+            "id": 18,
+            "name": "Developmental Pediatrician"
+        },
+        {
+            "id": 19,
+            "name": "Nuclear Medicine Physician"
+        },
+        {
+            "id": 20,
+            "name": "Reproductive Endocrinologist"
+        }
+    ],
+    "pageable": {
+        "sort": [],
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 20,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalElements": 85,
+    "totalPages": 5,
+    "last": false,
+    "size": 20,
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 20,
+    "first": true,
+    "empty": false
+}

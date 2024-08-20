@@ -1,0 +1,77 @@
+{
+    "content": [
+        {
+            "id": 1,
+            "uuid": "dedac983-e7c2-4113-a9ec-7d45e90a5570",
+            "firstName": "Akash",
+            "lastName": "Patil",
+            "email": "akash@getnada.com",   
+            "phone": "9089786722",
+            "active": true,
+            "emailVerified": false,
+            "phoneVerified": false,
+            "archive": false,
+            "iamId": "58b0e35f-3039-434c-ac51-a23a86b26521",
+            "avatar": null,
+            "newAvatar": null,
+            "role": "STAFF",
+            "tenantKey": null,
+            "lastLogin": null,
+            "userRoleType": "PROVIDER"  
+        },
+        {
+            "id": 2,
+            "uuid": "dedac983-e7c2-4113-a9ec-7d45e90a5570",
+            "firstName": "Alex",
+            "lastName": "Smith",
+            "email": "alex@getnada.com",   
+            "phone": "9089786722",
+            "active": true,
+            "emailVerified": false,
+            "phoneVerified": false,
+            "archive": false,
+            "iamId": "58b0e35f-3039-434c-ac51-a23a86b26521",
+            "avatar": null,
+            "newAvatar": null,
+            "role": "STAFF",
+            "tenantKey": null,
+            "lastLogin": null,
+            "userRoleType": "STAFF"  
+        }
+    ],
+    "pageable": {
+        "sort": [
+            {
+                "direction": "DESC",
+                "property": "created",
+                "ignoreCase": false,
+                "nullHandling": "NATIVE",
+                "ascending": false,
+                "descending": true
+            }
+        ],
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 10,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalPages": 1,
+    "totalElements": 1,
+    "last": true,
+    "size": 10,
+    "number": 0,
+    "sort": [
+        {
+            "direction": "DESC",
+            "property": "created",
+            "ignoreCase": false,
+            "nullHandling": "NATIVE",
+            "ascending": false,
+            "descending": true
+        }
+    ],
+    "numberOfElements": 1,
+    "first": true,
+    "empty": false
+}

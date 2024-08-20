@@ -1,0 +1,114 @@
+{
+    "content": [
+        {
+            "id": 2,
+            "uuid": "8028d9cf-d16a-4fe0-85b3-e215947d41c6",
+            "locationId": "33",
+            "name": "1213 Nagpur Nagpur highway",
+            "specialities": [
+                {
+                    "id": 3,
+                    "name": "Sports Medicine Specialist"
+                }
+            ],
+            "contactNumber": "1234567890",
+            "avatar": null,
+            "newAvatar": null,
+            "email": "sunit191@gmail.com",
+            "fax": "123",
+            "information": "Hi there",
+            "physicalAddress": {
+                "id": 5,
+                "line1": "123 Main St",
+                "line2": "Helo",
+                "city": "City",
+                "state": "State",
+                "country": "India",
+                "zipcode": "12345"
+            },
+            "billingAddress": {
+                "id": 4,
+                "line1": "123 Main St",
+                "line2": "Helo",
+                "city": "City",
+                "state": "State",
+                "country": "India",
+                "zipcode": "54321"
+            },
+            "locationHours": [
+                {
+                    "id": 1,
+                    "dayOfWeek": "MONDAY",
+                    "openingTime": "09:00:00",
+                    "closingTime": "16:00:00"
+                }
+            ],
+            "active": true,
+            "addressCheckBox": false
+        },
+        {
+            "id": 1,
+            "uuid": "8c1b4712-9285-4762-8d58-f97f392adbb4",
+            "locationId": "1",
+            "name": "Agraa Teerth",
+            "specialities": [
+                {
+                    "id": 22,
+                    "name": "Colorectal Surgeon"
+                },
+                {
+                    "id": 12,
+                    "name": "Cardiologist"
+                },
+                {
+                    "id": 2,
+                    "name": "Hand Surgeon"
+                }
+            ],
+            "contactNumber": "2234560099",
+            "avatar": null,
+            "newAvatar": null,
+            "email": "agraaateerth@mailinator.com",
+            "fax": "123456783",
+            "information": null,
+            "physicalAddress": {
+                "id": 2,
+                "line1": "123 Main St",
+                "line2": "Helo",
+                "city": "City",
+                "state": "State",
+                "country": "India",
+                "zipcode": "12345"
+            },
+            "billingAddress": {
+                "id": 1,
+                "line1": "123 Main St",
+                "line2": "Helo",
+                "city": "City",
+                "state": "State",
+                "country": "India",
+                "zipcode": "54321"
+            },
+            "locationHours": [],
+            "active": true,
+            "addressCheckBox": false
+        }
+    ],
+    "pageable": {
+        "sort": [],
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 20,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalElements": 0,
+    "totalPages": 0,
+    "last": true,
+    "size": 20,
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 0,
+    "first": true,
+    "empty": true
+}

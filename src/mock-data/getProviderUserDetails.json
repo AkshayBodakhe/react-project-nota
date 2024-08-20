@@ -1,0 +1,83 @@
+{
+    "uuid": "8a934d09-737a-407f-bcb9-e9da9beff160",
+    "providerType": "NONE",
+    "specialities": [
+        {
+            "id": 35,
+            "name": "Periodontist"
+        },
+        {
+            "id": 7,
+            "name": "Gastroenterologist"
+        },
+        {
+            "id": 53,
+            "name": "Foot and Ankle Specialist"
+        }
+    ],
+    "role": "FACILITY_ADMIN",
+    "firstName": "Henna",
+    "lastName": "west",
+    "gender": "MALE",
+    "active": false,
+    "npiNumber": "2963459547",
+    "contactNumber": "9112182909",
+    "faxNumber": "9888",
+    "groupNpiNumber": "5541827211",
+    "email": "hennawest@gmail.com",
+    "licenseState": "US",
+    "licenceNumber": "898879",
+    "insuranceAccepted": [
+        {
+            "id": 3,
+            "payerId": "58203",
+            "payerName": "1st Medical Network - Atlanta, GA"
+        },
+        {
+            "id": 4,
+            "payerId": "59069",
+            "payerName": "21st Century Health and Benefits"
+        }
+    ],
+    "yearOfExperience": "10",
+    "taxonomyNumber": "87887887",
+    "workLocations": [
+        {
+            "id": 1,
+            "uuid": "8c1b4712-9285-4762-8d58-f97f392adbb4",
+            "name": "26 Federal plaza, New York, NY 10278",
+            "locationId": "1"
+        },
+        {
+            "id": 1,
+            "uuid": "8c1b4712-9285-4762-8d58-f97f392adbb4",
+            "name": "1527 Pond Reef Rd, New York, NY 10278",
+            "locationId": "2"
+        },
+        {
+            "id": 1,
+            "uuid": "8c1b4712-9285-4762-8d58-f97f392adbb4",
+            "name": "925 S Chugach St #APT 10, New York, NY 10278",
+            "locationId": "3"
+        }
+    ],
+    "providerProfileInfo": {
+        "id": 1,
+        "subSpeciality": "Dentist",
+        "hospitalAffilation": "aaa",
+        "ageGroupSeen": "ADULT",
+        "languageSpoken": "ENGLISH",
+        "referralNumber": "false",
+        "acceptNewPatients": false,
+        "acceptCashPay": true,
+        "insuranceVerification": "EMAIL_ME",
+        "priorAuthorisation": "ENROLL_ME",
+        "secondOpinion": "DONT_ENROLL_ME",
+        "acuteSpeciality": "DONT_ENROLL_ME",
+        "bio": "scacsacsac",
+        "expertiseIn": "sxcsac",
+        "workExperience": "csacsacsa"
+    },
+    "avatar": "https://i.pinimg.com/474x/4b/71/f8/4b71f8137985eaa992d17a315997791e.jpg",
+    "newAvatar": null
+}

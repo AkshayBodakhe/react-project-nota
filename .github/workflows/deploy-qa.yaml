@@ -1,0 +1,67 @@
+# Name of workflow as seen in Github actions tab
+name: Nota QA portal CI Development
+# Run workflow only on push to dev branch
+on:
+  push:
+    branches:
+      - qa-deployment
+jobs:
+  # To build the project
+  build-nota-portal-fe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chat Setup
+        uses: Co-qn/google-chat-notification@v1
+        with:
+          name: UI QA deployment started!
+          url: ${{ secrets.CHAT_WEBHOOK }}
+          status: ${{ job.status }}
+
+      - name: Checking out code
+        uses: actions/checkout@v3
+
+      - name: Installing Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Installing dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Building FE  project
+        run: npm run build
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ vars.AWS_REGION_QA }}
+
+      - name: Deploy nota-fe to S3 bucket
+        run: aws s3 sync ./dist s3://${{ secrets.AWS_S3_ADMIN_PROVIDER_BUCKET_QA }} --delete
+
+      - name: Deploy nota-fe-emr-portal to S3 bucket
+        run: aws s3 sync ./dist s3://${{ secrets.AWS_S3_EMR_PORTAL_BUCKET_QA }} --delete
+
+      - name: Create nota-fe invalidation
+        run: |
+          distribution_id=${{ secrets.AWS_ADMIN_PROVIDER_CF_DISTRIBUTION_QA }}
+          paths='/*'
+          # Create an invalidation request
+          invalidation_id=$(aws cloudfront create-invalidation --distribution-id $distribution_id --paths $paths --query 'Invalidation.Id' --output text)
+          echo "Invalidation request created with ID: $invalidation_id"
+      - name: Create nota-fe invalidation
+        run: |
+          distribution_id=${{ secrets.AWS_EMR_PORTAL_CF_DISTRIBUTION_QA }}
+          paths='/*'
+          # Create an invalidation request
+          invalidation_id=$(aws cloudfront create-invalidation --distribution-id $distribution_id --paths $paths --query 'Invalidation.Id' --output text)
+          echo "Invalidation request created with ID: $invalidation_id"
+
+      - name: Chat Setup
+        uses: Co-qn/google-chat-notification@v1
+        with:
+          name: UI deployment completed!
+          url: ${{ secrets.CHAT_WEBHOOK }}
+          status: ${{ job.status }}

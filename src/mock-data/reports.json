@@ -1,0 +1,43 @@
+{
+    "date": "2023-08-10T06:28:45.576+00:00",
+    "code": "OK",
+    "data" : {
+        "content": [
+            {
+                "reportId" : "1",
+                "uuid": "7016a98c-84b2-4a16-03f3-c7d3c73446c4",
+                "dateAndtime" : "15-05-2023, 08:00 AM",
+                "patientName" : "Lesley Dobson",
+                "status" : "Waiting Room"
+            },
+            {
+                "reportId" : "2",
+                "uuid": "7014a98c-84b2-4a16-93f3-c7d3c73446c4",
+                "dateAndtime" : "15-05-2023, 08:00 AM",
+                "patientName" : "Eladia Chapin",
+                "status" : "Checked in"
+            },
+            {
+                "reportId" : "3",
+                "uuid": "7016a98c-84b2-4a16-93K3-c7d2c73446C4",
+                "dateAndtime" : "15-05-2023, 08:00 AM",
+                "patientName" : "Jocelyn vetroves",
+                "status" : "Scheduled"
+            },
+            {
+                "reportId" : "4",
+                "uuid": "7016a98c-84b2-4a16-93K3-c76dc73446c4",
+                "dateAndtime" : "15-05-2023, 08:00 AM",
+                "patientName" : "Ryan Weste",
+                "status" : "Scheduled"
+            },
+            {
+                "reportId" : "5",
+                "uuid": "7016a28c-84b2-4a16-93K3-c7dkc73443c4",
+                "dateAndtime" : "15-05-2023, 08:00 AM",
+                "patientName" : "Jocelyn vetroves",
+                "status" : "Scheduled"
+            }
+        ]
+    }
+}

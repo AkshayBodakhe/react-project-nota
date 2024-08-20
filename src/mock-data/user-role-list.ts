@@ -1,0 +1,51 @@
+export const userRoleList = [
+  {
+    iamRoleId: "6c222ce9-1331-4cb6-ab12-6afd7f61abc0",
+    roleName: "PROVIDER_ADMIN",
+    displayName: "Provider admin",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "6c222ce9-1331-4cb6-ab12-6afd7f61abc0",
+    roleName: "ADMIN",
+    displayName: "Admin",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "3cdbd115-c204-4030-acf9-d3ef9ea7db2b",
+    roleName: "BILLER",
+    displayName: "Biller",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "4e5ebbe2-28cc-49e8-a4a6-ca3e7236fa69",
+    roleName: "NURSE",
+    displayName: "Nurse",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "b1c01436-4674-42ff-95af-bc61436489ea",
+    roleName: "PROVIDER",
+    displayName: "Provider",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "ea2c27b0-01f2-47fd-be17-5448ee64747f",
+    roleName: "STAFF",
+    displayName: "Staff",
+    description: null,
+    default: true,
+  },
+  {
+    iamRoleId: "65881660-aad5-420f-9d8d-3a7ef3a17dd8",
+    roleName: "receptionist/public",
+    displayName: "Receptionist",
+    description: null,
+    default: false,
+  },
+];

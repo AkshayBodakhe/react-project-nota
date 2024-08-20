@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Group_89475" data-name="Group 89475" transform="translate(23523 6109)">
+    <g id="Rectangle_36400" data-name="Rectangle 36400" transform="translate(-23523 -6109)" fill="#fff" stroke="rgba(26,26,26,0.2)" stroke-width="1">
+      <rect width="64" height="64" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="63" height="63" rx="2.5" fill="none"/>
+    </g>
+    <g id="Group_89471" data-name="Group 89471" transform="translate(294 123)">
+      <g id="upload_file_black_24dp_1_" data-name="upload_file_black_24dp (1)" transform="translate(-23810 -6222)">
+        <g id="Group_89463" data-name="Group 89463" transform="translate(2.371)">
+          <rect id="Rectangle_36396" data-name="Rectangle 36396" width="43" height="44" transform="translate(-0.371)" fill="none"/>
+        </g>
+        <g id="Group_89465" data-name="Group 89465" transform="translate(0 3.645)">
+          <g id="Group_89464" data-name="Group 89464">
+            <path id="Path_205701" data-name="Path 205701" d="M22.224,2H7.645A3.64,3.64,0,0,0,4.018,5.645L4,34.8a3.64,3.64,0,0,0,3.627,3.645H29.514A3.656,3.656,0,0,0,33.158,34.8V12.934Zm7.29,32.8H7.645V5.645H20.4v9.112h9.112Z" transform="translate(5.112 -2)" fill="rgba(26,26,26,0.5)"/>
+            <g id="Group_89466" data-name="Group 89466" transform="translate(0 12.948)">
+              <rect id="Rectangle_36398" data-name="Rectangle 36398" width="21" height="17" transform="translate(0 0.407)" fill="#fff"/>
+              <g id="print_black_24dp_6_" data-name="print_black_24dp (6)" transform="translate(2.184 0.59)">
+                <path id="Path_205702" data-name="Path 205702" d="M0,0H16.633V16.633H0Z" fill="none"/>
+                <path id="Path_205703" data-name="Path 205703" d="M13.782,6.465h-.693V3H4.772V6.465H4.079A2.076,2.076,0,0,0,2,8.544V12.7H4.772v2.772h8.317V12.7h2.772V8.544A2.076,2.076,0,0,0,13.782,6.465ZM6.158,4.386H11.7V6.465H6.158ZM11.7,12.7v1.386H6.158V11.317H11.7Zm1.386-1.386V9.931H4.772v1.386H3.386V8.544a.7.7,0,0,1,.693-.693h9.7a.7.7,0,0,1,.693.693v2.772Z" transform="translate(-0.614 -0.921)" fill="rgba(26,26,26,0.5)"/>
+                <circle id="Ellipse_1294" data-name="Ellipse 1294" cx="0.693" cy="0.693" r="0.693" transform="translate(11.782 7.277)" fill="rgba(26,26,26,0.5)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "notificationId": 1,
+            "type": "A reminder 10 minutes before scheduled appointment",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        },
+        {
+            "notificationId": 2,
+            "type": "Patient books an appointment",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        },
+        {
+            "notificationId": 3,
+            "type": "Patient cancel an appointment",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        },
+        {
+            "notificationId": 4,
+            "type": "Patient check in notification",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        },
+        {
+            "notificationId": 5,
+            "type": "Patient payment notification",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        },
+        {
+            "notificationId": 6,
+            "type": "A schedule payment from patient successful",
+            "allowPush": false,
+            "allowText": false,
+            "allowEmail": false
+        }
+    ]
+}

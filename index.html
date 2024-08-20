@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Navala Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://staxjs.staxpayments.com/stax.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css" />
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"> -->
+  <style>
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px white inset !important;
+    }
+
+    #card-number {
+      width: 90%;
+      height: 90%;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      padding: 10px 12px;
+      font-family: "Figtree, sans-serif";
+    }
+
+
+    #card-cvv {
+      /* width: 30px; */
+      width: 90%;
+      height: 90%;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      padding: 10px 12px;
+      font-family: "Figtree, sans-serif";
+    }
+
+    #card-cvv input {
+      color: #555;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.12px;
+      border-radius: 30px;
+      font-family: "Figtree, sans-serif";
+    }
+
+    #card-cvv input::placeholder {
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Figtree, sans-serif";
+    }
+  </style>
+
+</head>
+
+<body style="background-color: #ececec;">
+  <div id="root"></div>
+  <script>
+    const staxJs = new StaxJs('nota-dcb15b275544', {
+      number: {
+        id: 'card-number',
+        placeholder: '0000 0000 0000 0000',
+        style: ' width: 100%; font-size: 15px;',
+        type: 'text',
+        format: 'prettyFormat'
+      },
+      cvv: {
+        id: 'card-cvv',
+        placeholder: '000',
+        style: ' width: 100%; font-size: 15px;',
+        type: 'text'
+      }
+    });
+    window.staxJs = staxJs;
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

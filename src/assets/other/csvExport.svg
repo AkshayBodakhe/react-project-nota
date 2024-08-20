@@ -1,0 +1,30 @@
+<svg id="Component_2052_1" data-name="Component 2052 – 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Rectangle_36400" data-name="Rectangle 36400" fill="#fff" stroke="rgba(26,26,26,0.2)" stroke-width="1">
+    <rect width="64" height="64" rx="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="63" height="63" rx="2.5" fill="none"/>
+  </g>
+  <g id="Group_89471" data-name="Group 89471" transform="translate(23817 6232)">
+    <g id="upload_file_black_24dp_1_" data-name="upload_file_black_24dp (1)" transform="translate(-23810 -6222)">
+      <g id="Group_89463" data-name="Group 89463" transform="translate(2.371)">
+        <rect id="Rectangle_36396" data-name="Rectangle 36396" width="43" height="44" transform="translate(-0.371)" fill="none"/>
+      </g>
+      <g id="Group_89465" data-name="Group 89465" transform="translate(0 3.645)">
+        <g id="Group_89464" data-name="Group 89464">
+          <path id="Path_205701" data-name="Path 205701" d="M22.224,2H7.645A3.64,3.64,0,0,0,4.018,5.645L4,34.8a3.64,3.64,0,0,0,3.627,3.645H29.514A3.656,3.656,0,0,0,33.158,34.8V12.934Zm7.29,32.8H7.645V5.645H20.4v9.112h9.112Z" transform="translate(5.112 -2)" fill="rgba(26,26,26,0.5)"/>
+          <g id="Group_89466" data-name="Group 89466" transform="translate(0 12.948)">
+            <rect id="Rectangle_36398" data-name="Rectangle 36398" width="21" height="17" transform="translate(0 0.407)" fill="#fff"/>
+            <rect id="Rectangle_36399" data-name="Rectangle 36399" width="21" height="18" transform="translate(30 9.407)" fill="#fff"/>
+            <g id="upload_file_black_24dp_1_2" data-name="upload_file_black_24dp (1)" transform="translate(18.226 1.631) rotate(90)">
+              <g id="Group_89465-2" data-name="Group 89465">
+                <g id="Group_89464-2" data-name="Group 89464">
+                  <path id="Path_205701-2" data-name="Path 205701" d="M0,7.272,2.57,4.7l2.9,2.88V0H9.112V7.582l2.9-2.9,2.57,2.588L7.308,14.58Z" fill="rgba(26,26,26,0.5)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="CSV" transform="translate(-23779 -6192)" fill="rgba(26,26,26,0.5)" font-size="9" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="8">CSV</tspan></text>
+  </g>
+</svg>

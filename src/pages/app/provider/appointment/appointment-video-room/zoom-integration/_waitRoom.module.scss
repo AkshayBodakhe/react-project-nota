@@ -1,0 +1,96 @@
+.screen {
+  background-color: #dddddd;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  .container {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    .left {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 90%;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      .video {
+        width: 60%;
+        height: 100%;
+        background-color: #4261c3;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+      }
+      .action {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        position: relative;
+        bottom: 60px;
+        width: 100%;
+        .icon {
+          width: 50px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background-color: white;
+          color: #ff0000;
+          cursor: pointer;
+        }
+      }
+    }
+    .right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .permission {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 13px;
+        align-items: center;
+        .button {
+          cursor: pointer;
+          background-color: #b0c21f;
+          color: white;
+          border: 0px solid #4261c3;
+          border-radius: 90px;
+          // width: 260px;
+          // height: 65px;
+          // line-height: 65px;
+          // font-size: 20px;
+          font-size: 15px;
+          font-weight: 600;
+          // padding: 0px;
+          padding: 1em 1.5em;
+        }
+      }
+    }
+  }
+}
+
+.custom video {
+  border-radius: 8px;
+  object-fit: cover;
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+.custom {
+  width: 100% !important;
+  height: 100% !important;
+}

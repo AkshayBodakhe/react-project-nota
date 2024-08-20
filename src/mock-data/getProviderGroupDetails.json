@@ -1,0 +1,87 @@
+{
+    "id": 31,
+    "uuid": "5dbc72c0-c598-45dc-85b5-2e08b3a8db08",
+    "name": "Matrix health care",
+    "dbSchema": "matrixhealthcare",
+    "iamGroup": "matrixhealthcare",
+    "subdomain": "matrixhealthcare",
+    "contactNumber": "1374567527",
+    "npiNumber": "7173445814",
+    "email": "matrix@mailinator.com",
+    "website": "",
+    "fax": "123454783",
+    "description": "At iCare Provider Group, we are committed to delivering ",
+    "physicalAddress": {
+        "id": 62,
+        "line1": "456 Park Avenue",
+        "line2": "Apartment 7B",
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "zipcode": "123123"
+    },
+    "billingAddress": {
+        "id": 61,
+        "line1": "789 Elm Street",
+        "line2": "Suite 200",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "zipcode": "2311111111"
+    },
+    "active": true,
+    "archive": false,
+    "specialities": [
+        {
+            "id": 2,
+            "name": "Hand Surgeon"
+        }
+    ],
+    "practiceHours": [
+        {
+            "id": 62,
+            "dayOfWeek": "TUESDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 65,
+            "dayOfWeek": "WEDNESDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 64,
+            "dayOfWeek": "MONDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 60,
+            "dayOfWeek": "FRIDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 61,
+            "dayOfWeek": "SUNDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 66,
+            "dayOfWeek": "THURSDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        },
+        {
+            "id": 63,
+            "dayOfWeek": "SATURDAY",
+            "openingTime": "09:00:00",
+            "closingTime": "16:00:00"
+        }
+    ],
+    "avatar": null,
+    "newAvatar": null,
+    "addressCheckBox": false
+}
